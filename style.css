@@ -2,10 +2,10 @@
 
 :root {
     --fonte-primaria: 'Fuggles', cursive;
-    --cor-de-fundo: #000000;
-    --cor-primaria: #c9cff8;
-    --cor-secundaria: #4000ff;
-    --detalhes: #7b89f3;
+    --cor-de-fundo: #4C3D3D;
+    --cor-primaria: #FFD95A;
+    --cor-secundaria: #FFF7D4;
+    --detalhes: #C07F00;
 }
 
 body{
@@ -22,15 +22,15 @@ body{
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 7em;
 }
 h3 {
-    font-size: 2em;
+    font-size: 3.5em;
     margin-top: 20px;
 }
 
 .mensagem {
-    font-size: 1.5em;
+    font-size: 2em;
     margin-top: 40px;
 }
 
@@ -38,7 +38,7 @@ h3 {
     border: 4px double var(--detalhes);
     box-shadow: var(--cor-secundaria) 2px 2px 25px;
     display: inline-block;
-    font-size: 4em;
+    font-size: 5em;
     padding: 10px;
     margin: 20px;
 }
